@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  power: MyString
+  prefix: MyString
+  suffix: MyString
+  discriptor: MyString
+
+two:
+  name: MyString
+  power: MyString
+  prefix: MyString
+  suffix: MyString
+  discriptor: MyString

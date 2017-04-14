@@ -1,0 +1,11 @@
+<h1> New Hero </h1>
+
+<%= form_tag "/heros" , method: :post do %>
+	name <input type="text" name="name">
+	power <input type="text" name="power">
+	Prefix <input type="text" name="prefix">
+	Suffix <input type="text" name="suffix">
+	Descriptor <input type="text" name="descriptor">
+	<input type="submit" value="Create hero!">
+
+	<% end %>

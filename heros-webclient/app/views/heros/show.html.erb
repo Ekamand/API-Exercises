@@ -1,0 +1,13 @@
+<h1>Hero Details</h1>
+
+<h3>Hero ID #: <%= @id %></h3>
+<h2>Hero's Name: <%= @hero.name %></h2>
+<h4>Power: <%= @hero.power %></h4>
+<h4>Prefix: <%= @hero.prefix %></h4>
+<h4>Suffix: <%= @hero.suffix %></h4>
+<h4>Descriptor: <%= @hero.descriptor %></h4>
+
+<input type="submit" value="Delete hero!">
+<input type="submit" value="Edit hero!">
+
+#  link_to "delete hero", "/heros/#{@hero['id']}", method: :delete %>

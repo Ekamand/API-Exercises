@@ -1,0 +1,11 @@
+<h1> update Hero </h1>
+
+<%= form_tag "/heros/#{@hero_id}" , method: :patch do %>
+	name <input type="text" name="name" value="<%= @heros['name'] %>">
+	power <input type="text" name="power" value="<%= @heros['power'] %>">
+	Prefix <input type="text" name="prefix" value="<%= @heros['prefix'] %>">
+	Suffix <input type="text" name="suffix" value="<%= @heros['suffix'] %>">
+	Descriptor <input type="text" name="descriptor" value="<%= @heros["descriptor"] %>">
+	<input type="submit" value="Create hero!">
+
+	<% end %>

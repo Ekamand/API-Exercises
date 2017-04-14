@@ -1,0 +1,2 @@
+class SfschoolsController < ApplicationController
+end

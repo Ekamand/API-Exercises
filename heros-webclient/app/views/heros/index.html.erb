@@ -1,0 +1,11 @@
+<h1>All Heros </h1>
+
+<% @heros.each do |hero| %>
+<h3> Name: <%= hero.name %> </h3>
+<h4> Power: <%= hero.power %> </h4>
+<h4> Prefix: <%= hero.prefix %> </h4>
+<h4> Suffix: <%= hero.suffix %> </h4>
+<h4> Descriptor: <%= hero.descriptor %> </h4>
+<br />
+
+<% end %>

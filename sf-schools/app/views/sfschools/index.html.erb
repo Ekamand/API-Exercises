@@ -1,0 +1,12 @@
+
+<h1>San Franciso schools</h1>
+
+
+<% @sfschools.each do |school| %>
+
+  <h2>Campus Name: <%= school["campus_name"] %></h2>
+  <h3>Campus Address:<%= school["campus_address"] %></h3>
+  <h4>School Category:<%= school["category"] %></h4>
+  <h4>Grade: <%= school["grade_range"] %></h4>
+
+<% end %>
